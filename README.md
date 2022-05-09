@@ -14,4 +14,5 @@ The following steps must be done to correctly implement the modified firmware
 
 1. Replace the module files given in this repository into their respective modules in the original PX4 firmware
 2. Build the firmware
-3. 
+3. Replace the file 'mixer_multirotor_normalized.generated.h' located in /build/build_name_folder/src/lib/mixer/MultirotorMixer/
+4. Upload the firmware
