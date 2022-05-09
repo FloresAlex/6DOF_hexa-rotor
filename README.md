@@ -11,6 +11,7 @@ To test the modified code in the simulation environment, refer to the SITL simul
 For a real test of the tilted multi-rotor UAV is is required to build and upload the modified firmware to the autopilot, for this two steps refere to https://docs.px4.io/master/en/dev_setup/building_px4.html
 
 The following steps must be done to correctly implement the modified firmware
-\begin{itemize}{
-\item Replace the module files given in this repository into their respective modules in the original PX4 firmware
-}
+
+1. Replace the module files given in this repository into their respective modules in the original PX4 firmware
+2. Build the firmware
+3. 
